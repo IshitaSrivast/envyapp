@@ -1,0 +1,12 @@
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.3s;
+    width: 300px; /* Increase width */
+    height: 400px; /* Increase height */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
